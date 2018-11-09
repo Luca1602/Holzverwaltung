@@ -93,6 +93,7 @@ public class Form extends JFrame {
 					}
 				}
 				else {
+					//if there still is wood in the storage
 					txtErrorMessage.setText("Bitte verarbeitetes Holz verkaufen bevor nächste Anschaffung getätigt wird");
 				}
 			}
